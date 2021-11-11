@@ -14,3 +14,11 @@ Next, navigate to EC2 in the Services menu - Instances - Launch instance. If you
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636647349869/kIs-vOE92.png)
 
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636648947742/-1TD6sHn1j.png)
+
+Next we will SSH into the instance. From the EC2 menu, select your instance and Connect. AWS gives a few options including SSH which we'll use here. You will need to modify permissions on your .pem key file from the last section. CD into the key file folder and run chmod 400 to modify the file to owner read only permissions. You will then use "ssh -i (your .pem file name) ec2-user@ " to connect to your instance. (You can simply copy and paste these commands from the AWS instructions. 
+
+If you see something like the image below you have successfully connected to your instance! To clean up your environment you can terminate the instance and delete the VPC if necessary. 
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636648966837/2fLFqYaJf.png)
