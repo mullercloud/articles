@@ -1,4 +1,4 @@
-## Create and Work With an EC2 Instance lab
+## Create and Work with an EC2 Instance lab
 
 Creating and working with Elastic Compute Cloud (EC2) instances is a very common occurrence with AWS. This is a basic A Cloud Guru lab walkthrough that involves creating a VPC, Security Group, key pair, and then connecting to the instance via SSH. 
 
